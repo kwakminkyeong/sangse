@@ -517,7 +517,7 @@ a:hover{
 	background-color:rgba(247, 126, 126, 0.5);
 	position: relative;
 	top:165px;
-	left:20%;
+	left:9.5%;
 	z-index: 30;
 	display: none; 
 }
@@ -670,9 +670,7 @@ a:hover{
 		
 	}
 
-	.hr{
-		display: none;
-	}
+	
 	.gall{
 		width:30%;
 		white-space:nowrap;
@@ -689,9 +687,9 @@ a:hover{
         text-overflow:ellipsis;
 		
 	}
-	.contIn{
+	/* .contIn{
 		top:210px;
-	}
+	} */
 
 	.careerV{
 		white-space:nowrap;
@@ -844,9 +842,9 @@ a:hover{
 		
 	}
 		
-	.contIn{
+	/* .contIn{
 		top: 270px;
-	}
+	} */
 	.contInV{
 		top: 270px;
 	}

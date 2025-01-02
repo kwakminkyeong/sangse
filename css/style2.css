@@ -513,12 +513,13 @@ a:hover{
 
 /*-----------------------------------------------그래픽 큰그림*/
 .popgall{
-	width:80%;
+	width:100%;
 	background-color:rgba(247, 126, 126, 0.5);
 	position: relative;
 	top:165px;
-	left:9.5%;
+	left:0%;
 	z-index: 30;
+	margin: 0 auto;
 	display: none; 
 }
 
@@ -543,38 +544,8 @@ a:hover{
 	 
 }
 
-.topbtn{
-	width:50px;
-	height:50px;
-	background-color:#aaa;
-	border-radius: 50%;
-	font-size: 12px;
-	font-weight: bold;
-	position: fixed;
-	z-index: 31;
-	line-height: 50px;
-	text-align: center;
-	right:0px;
-	top:900px;
-}
-.movebtn{
-	width:1000px;
-	height:50px;
-	/* background-color: antiquewhite; */
-	margin: 10px auto;
-	line-height: 50px;
-}
-.prev{
-	float: left;
-	font-weight: bold;
-	color:#aaa;
-}
-.next{
-	float: right;
-	font-weight: bold;
-	color:#aaa;
 
-}
+
 
 
 /*-----------------------------------------------------반응형*/
@@ -618,15 +589,8 @@ a:hover{
 	.contIn{
 		width:100%;
 	}
-	.contInV{
-		width:100%;
-	}
-	.video{
-		width:100%;
-	}
-	.intro{
-		width: 90%;
-	}
+
+
 	
 }
 
@@ -643,32 +607,10 @@ a:hover{
 
 		}
 
-	.logo{
-		width:100%;
-		}
-	.nav{
-		width:95%;
-		margin: 0 auto;
-		}	
-	.main{
-		width:calc(95% / 6);
-	}	
-
-	.slide{
-		width:75%;
-		margin-left: 12%;
-		margin-top: 265px;
-	}	
-	.link {
-		margin-left: 20px;
-		margin-top: 126px;
-	}
 	
-	.contt {
-		
-		margin-left: 20px;
-		
-	}
+
+
+
 
 	
 	.gall{
@@ -687,25 +629,12 @@ a:hover{
         text-overflow:ellipsis;
 		
 	}
-	/* .contIn{
-		top:210px;
-	} */
+	
 
-	.careerV{
-		white-space:nowrap;
-        overflow:hidden;
-        text-overflow:ellipsis;
-	}
-	.contInV{
-		top:210px;
-	}
+
 	
 	
-	.info{
-		width:65%;
-		font-size: 14px;
-	
-	}
+
 
 
 	
@@ -785,7 +714,7 @@ a:hover{
 @media screen and (max-width:738px){
 	.header {
 		width: 100%;
-		height: 225px;
+		
 		/* background-color: aqua; */
 	}
 
